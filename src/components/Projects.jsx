@@ -16,6 +16,19 @@ const projects = [
     image: "/images/adiyatbd.png", // 👈 add your image here (place in public/images folder)
   },
   {
+    title: "Paparazzi BD | An e-commerce Website for Skin Care Products",
+    description:
+      "Developed a full-stack e-commerce site with product listings, cart, and secure checkout.",
+    link: "https://paparazzibd.com",
+    type: "DevVerse",
+    stack: [
+      { name: "WordPress", icon: "fa-brands fa-wordpress" },
+      { name: "Elementor", icon: "fa-brands fa-elementor" },
+      { name: "woocommerce", icon: "fa-brands fa-wordpress" },
+    ],
+    image: "/images/adiyatbd.png", // 👈 add your image here (place in public/images folder)
+  },
+  {
     title: "Payment Gateway Plugin",
     description:
       "Built and documented payment plugin for Opencart using PHP and integrated APIs.",
