@@ -57,7 +57,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="button-container">
-        <button className="intro-btn">
+        <button className="intro-btn hire-me">
           <span className="button-content">HIRE ME</span>
         </button>
 

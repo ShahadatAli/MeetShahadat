@@ -170,39 +170,7 @@
 }
 
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .project-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-}
 
-@media (max-width: 500px) {
-  .filter-switch {
-    height: 45px;
-  }
-
-  .filter-switch label {
-    font-size: 14px;
-    padding: 0.4rem;
-  }
-
-  .filter-switch .background {
-    height: 35px;
-  }
-
-  .project-card {
-    padding: 1rem;
-  }
-
-  .project-card h3 {
-    font-size: 1.2rem;
-  }
-
-  .project-card p {
-    font-size: 0.9rem;
-  }
-}
 
 /* Project Card with Image */
 .project-card {
@@ -240,15 +208,52 @@
   transition: transform 0.3s ease;
 }
 
-/* Responsive layout */
+/* Responsive Adjustments */
 @media (max-width: 768px) {
-  .project-card {
+  .project-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .project-wrapper {
+    padding: 0.5rem;
+    border: unset;
+  }
+    .project-heading {
+    line-height: 50px;
+  }
+    .project-card {
     flex-direction: column;
     align-items: stretch;
+    padding: 1rem;
   }
 
   .project-card .project-image {
     max-width: 100%;
     margin-top: 0;
   }
+
+    .filter-switch {
+    height: 45px;
+  }
+
+  .filter-switch label {
+    font-size: 14px;
+    padding: 0.4rem;
+  }
+
+  .filter-switch .background {
+    height: 35px;
+  }
+
+  .project-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .project-card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 500px) {
+
+
 }

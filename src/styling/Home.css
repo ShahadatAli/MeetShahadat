@@ -242,7 +242,7 @@
     align-items: center;
   }
   .intro-star {
-    height: 80px;
+    height: 10px;
     margin-top: auto;
     margin-left: -100px;
     visibility: hidden;
@@ -251,7 +251,7 @@
   .intro-text {
     font-size: 32px;
     line-height: 36px;
-    margin: 0 0 40px 0;
+    margin: 0 0 150px 0;
   }
 
   .intro-details {
@@ -270,10 +270,22 @@
   }
 
   .intro-btn {
-    top: 200px;
-    width: 160px;
+
+    width: 40px;
+    height: 40px;;
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+
+  .right-buttons{
+    width: 100px;
+  }
+  
+  .hire-me{
+    width: 100px;
+    margin-right: 10px;
+    font-size: 12px;
   }
 
   .bio-section-intro,

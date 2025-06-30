@@ -26,9 +26,9 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-content">
         <Link to="/" onClick={() => handleLinkClick("/")}>Home</Link>
-        <Link to="/about" onClick={() => handleLinkClick("/about")}>About</Link>
         <Link to="/projects" onClick={() => handleLinkClick("/projects")}>Work</Link>
         <Link to="/contact" onClick={() => handleLinkClick("/contact")}>Contact</Link>
+        <Link to="/about" onClick={() => handleLinkClick("/about")}>About</Link>
       </div>
     </nav>
   );
