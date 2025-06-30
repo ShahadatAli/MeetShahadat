@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Accorn';
+  src: url('../src/assets/acorn-7.ttf') format('truetype'); /* Adjust path if needed */
+}
+
+body {
+  font-family: montserrat;
+  color: #282828;
+  background: linear-gradient(-45deg, #ee7752, #945d4c, #3c6574, #529f8d);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+
+}
+
+
+/* background effect */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+

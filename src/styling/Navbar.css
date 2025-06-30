@@ -1,0 +1,37 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%); /* Center the navbar horizontally */
+  width: auto; /* Automatically adjust based on content width */
+  padding: 15px 20px; /* Adjusted padding */
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(232, 254, 252);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1000;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  
+}
+
+.navbar.scrolled {
+  /* From https://css.glass */
+background: rgba(0, 0, 0, 0.29);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11px);
+-webkit-backdrop-filter: blur(11px);
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  gap: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+  font-weight: 500;
+}
