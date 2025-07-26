@@ -218,7 +218,8 @@
     border: unset;
   }
     .project-heading {
-    line-height: 50px;
+      margin-top: 80px;
+      line-height: 50px;
   }
     .project-card {
     flex-direction: column;

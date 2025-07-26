@@ -116,6 +116,10 @@
   }
   
   @media (max-width: 768px) {
+    .contact-intro{
+      margin-top: 60px;
+      margin-bottom: 50px;
+    }
     .card-container {
       flex-direction: column;
       padding: 20px;
@@ -126,14 +130,9 @@
       margin: 10px auto;
       width: 100%;
     }
-  }
-  
-  /* ========== Mobile Screens (390px and smaller) ========== */
-  @media (max-width: 480px) {
-    .card-container {
-      width: 90%;
-      margin-top: 30%;
-      padding: 20px;
+        .card-container {
+      width: 80%;
+
     }
   
     .info-container h1 {
@@ -184,4 +183,9 @@
     .form-status {
       font-size: 13px;
     }
+  }
+  
+  /* ========== Mobile Screens (390px and smaller) ========== */
+  @media (max-width: 480px) {
+
   }
