@@ -322,6 +322,29 @@
     grid-template-columns: 1fr;
     text-align: center;
   }
+
+  .video-container {
+    position: relative;
+    width: 120%;           /* reduce width a bit */
+    margin: 0 auto 0 -10%;       /* center it */
+    padding-top: 75%;     /* 4:3 aspect ratio → taller */
+    height: 8vh;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  }
+
+  .video-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 12px;
+    transform: scale(1.010); /*  */
+  }
+
 }
 
 @media (max-width: 480px) {
