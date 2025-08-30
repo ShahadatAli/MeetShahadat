@@ -111,17 +111,17 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="video-container">
-          <iframe
-            loading="lazy"
-           // src="https://www.youtube.com/embed/C4pAIvTcYmk?si=tAo5ozEZppjubHHV"
-            title="Intro Video"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            className="video-frame"
-          ></iframe>
-        </div>
+<div className="video-container">
+  <iframe
+    loading="lazy"
+    src="https://www.youtube.com/embed/PjtrXAWYJNw?si=rL21kjAq9qLPPdgw"
+    title="Intro Video"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+    className="video-frame"
+  ></iframe>
+</div>
       </div>
 
       <div className="bio-section-project">

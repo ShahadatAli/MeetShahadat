@@ -26,7 +26,7 @@ const projects = [
       { name: "Elementor", icon: "fa-brands fa-elementor" },
       { name: "woocommerce", icon: "fa-brands fa-wordpress" },
     ],
-    image: "/images/adiyatbd.png", // 👈 add your image here (place in public/images folder)
+    image: "/images/paparazzibd.png", // 👈 add your image here (place in public/images folder)
   },
   {
     title: "Payment Gateway Plugin",
@@ -201,7 +201,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="text-blue-300 font-medium hover:underline"
                 >
-                  View Project →
+                  Live View →
                 </a>
               </div>
 
